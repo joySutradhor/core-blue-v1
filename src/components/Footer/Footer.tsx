@@ -51,7 +51,7 @@ export default function Footer() {
             </div>
 
             <motion.div
-              variants={fadIn("left", 0.2)}
+              variants={fadIn("up", 0.2)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -59,13 +59,13 @@ export default function Footer() {
               <div className="cb__foot___info_space">
 
                 <h2 >
-                  <strong className="cb__footer__info">Email :</strong> <span className="cb__info__span">kokori8936@chysir.com</span>
+                  <strong className="cb__footer__info">Email :</strong> <span className="cb__info__span">webvault.official@gmail.com </span>
                 </h2>
                 <h2 >
-                  <strong className="cb__footer__info">Website :</strong> <span className="cb__info__span">www.devmamunbd.com</span>
+                  <strong className="cb__footer__info">Website :</strong> <span className="cb__info__span">resolveidea.com</span>
                 </h2>
                 <h2>
-                  <strong className="cb__footer__info">Email :</strong> <span className="cb__info__span">Sylhet, bangladesh</span>
+                  <strong className="cb__footer__info">Phone :</strong> <span className="cb__info__span">+8801627-505755</span>
                 </h2>
 
 

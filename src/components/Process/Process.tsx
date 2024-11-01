@@ -35,31 +35,21 @@ export default function Process() {
           </motion.div>
 
 
-          <motion.div
+          <div className='mt-10 md:mt-20 dark:hidden'>
+            <Image
+              src={FlowChart}
+              alt='flowchart'
+              className='w-full h-full object-cover'
+            />
+          </div>
 
-            variants={fadIn("down", 0)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-          >
-            <div className='mt-4 md:mt-auto dark:hidden'>
-              <Image
-                src={FlowChart}
-                alt='flowchart'
-                height={100}
-                width={100}
-              />
-            </div>
-
-            <div className='mt-4 md:mt-auto hidden dark:block'>
-              <Image
-                src={WorkflowDark}
-                alt='WorkflowDark'
-                height={100}
-                width={100}
-              />
-            </div>
-          </motion.div>
+          <div className='mt-10 md:mt-20  hidden dark:block'>
+            <Image
+              src={WorkflowDark}
+              alt='WorkflowDark'
+             className='w-full h-full object-cover'
+            />
+          </div>
         </div>
       </div>
     </section>

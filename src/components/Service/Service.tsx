@@ -12,7 +12,7 @@ const Service = () => {
     <section className='cb__section__gap' id='service'>
       {/* Section header */}
       <motion.div
-        variants={fadIn("left", 0.2)}
+        variants={fadIn("up", 0.2)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true }}

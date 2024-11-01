@@ -16,7 +16,7 @@ export default function About() {
           width={100}
           layout='responsive'
           alt='about image'
-          className='rounded-lg grayscale-0 hover:grayscale transition-all ease-in-out duration-500 '
+          className='rounded-lg grayscale hover:grayscale-0 transition-all ease-in-out duration-500 '
         >
         </Image>
       </div>
