@@ -7,7 +7,6 @@ import Team from "@/components/Team/Team";
 import Testimonial from "@/components/Testimonial/Testimonial";
 import Service from "@/components/Service/Service";
 import Packages from "@/components/Packages/Packages";
-import Footer from "@/components/Footer/Footer";
 import StayUpdate from "@/components/StayUpdate/StayUpdate";
 import Contact from "@/components/Contact/Contact";
 
