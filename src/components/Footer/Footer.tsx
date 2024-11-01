@@ -56,20 +56,20 @@ export default function Footer() {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
             >
-              <div className="cb__foot___info_space">
+              <ul className="cb__foot___info_space">
 
-                <h2 >
+                <li >
                   <strong className="cb__footer__info">Email :</strong> <span className="cb__info__span">webvault.official@gmail.com </span>
-                </h2>
-                <h2 >
+                </li>
+                <li >
                   <strong className="cb__footer__info">Website :</strong> <span className="cb__info__span">resolveidea.com</span>
-                </h2>
-                <h2>
+                </li>
+                <li>
                   <strong className="cb__footer__info">Phone :</strong> <span className="cb__info__span">+01771569731</span>
-                </h2>
+                </li>
 
 
-              </div>
+              </ul>
             </motion.div>
 
             {/* Social-Links */}
