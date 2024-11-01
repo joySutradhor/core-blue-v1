@@ -69,7 +69,7 @@ export default function Nav() {
                     <div className="cb__nav__toggole__icon">
                         <ThemeSwitcher />
                     </div>
-                    <Btn btnText="DOC" />
+                    <Link href="/core-blue-doc"><Btn btnText="DOC" /></Link>
                 </div>
 
                 {/* Toggle Button for Mobile */}

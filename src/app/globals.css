@@ -529,7 +529,7 @@ html {
   }
 
   .cb__staySingle__box {
-    @apply px-3 py-3 text-white/70 hover:text-white/90 transition-colors duration-300 ease-linear;
+    @apply px-3 py-3 text-white/70 dark:text-black/80 hover:text-white/90 transition-colors duration-300 ease-linear;
   }
 
   .cb__IconUsers {
