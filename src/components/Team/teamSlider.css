@@ -1,0 +1,27 @@
+
+
+
+
+.alice-carousel__prev-btn {
+    left: 60px; 
+}
+
+.alice-carousel__next-btn {
+    right: 60px; 
+}
+
+.alice-carousel__prev-btn span,
+.alice-carousel__next-btn span {
+    background-color: #0F1A3D;
+    font-size: large;
+    color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+
+
