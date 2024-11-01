@@ -34,7 +34,6 @@ export default function Nav() {
                     <Image
                         height={100}
                         width={100}
-                        layout="responsive"
                         alt="dark logo"
                         src={darkLight}
                     ></Image>
@@ -44,7 +43,6 @@ export default function Nav() {
                     <Image
                         height={100}
                         width={100}
-                        layout="responsive"
                         alt="dark logo"
                         src={darkLogo}
                     ></Image>

@@ -46,7 +46,8 @@ export default function Process() {
               <Image
                 src={FlowChart}
                 alt='flowchart'
-                layout='responsive'
+                height={100}
+                width={100}
               />
             </div>
 
@@ -54,7 +55,8 @@ export default function Process() {
               <Image
                 src={WorkflowDark}
                 alt='WorkflowDark'
-                layout='responsive'
+                height={100}
+                width={100}
               />
             </div>
           </motion.div>
