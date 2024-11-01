@@ -2,7 +2,7 @@ import React from 'react';
 
 const CoreBlueDocumentation: React.FC = () => {
     return (
-        <div className="px-[5%] pt-16 md:pt-24 md:px-[8%] lg:pt-32 lg:px-[6%] xl:pt-[160px] xl:px-[5.56%] text-gray-800 bg-gray-100  overflow-hidden ">
+        <div className="px-[5%] pt-16 md:pt-24 md:px-[8%] lg:pt-32 lg:px-[6%] xl:pt-[160px] xl:px-[5.56%] text-gray-800 bg-gray-100 py-20 overflow-hidden ">
             <h1 className="text-3xl font-bold mb-6">CoreBlue - Next.js TypeScript Theme Documentation</h1>
 
             <section className="mb-8">
