@@ -15,7 +15,7 @@ import { fadIn } from '../varient';
 
 export default function Team() {
   const [isClient, setIsClient] = useState(false);
-  const handleDragStart = (e: { preventDefault: () => any; }) => e.preventDefault();
+  const handleDragStart = (e: React.DragEvent) => e.preventDefault();
 
   // Ensuring AliceCarousel is only rendered on the client-side
   useEffect(() => {
