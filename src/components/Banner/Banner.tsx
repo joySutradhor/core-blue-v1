@@ -7,6 +7,7 @@ import Chart from "./Chart";
 import Btn from "../utilites/btn";
 import { motion } from "framer-motion"
 import { fadIn } from '../varient';
+import CountUp from "react-countup";
 
 
 
@@ -15,7 +16,7 @@ export default function Banner() {
     <section className="cb__banner__gap" id="#banner">
       <div className="cb__banner__parent">
         <motion.div
-          variants={fadIn("right", 0)}
+          variants={fadIn("left", 0)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
@@ -30,12 +31,18 @@ export default function Banner() {
 
 
                 <div className="cb__banner__counter__child">
-                  <h4 className=" cb__banner__counter__title">72.2%</h4>
+                  <h4 className="cb__banner__counter__title">
+                    <span><CountUp start={0} end={72} /></span>
+                    <span> %</span>
+                  </h4>
                   <p className="cb__banner__counter__des">Average Daily Users</p>
                 </div>
 
                 <div>
-                  <h4 className="cb__banner__counter__title"> ~ 22 K</h4>
+                  <h4 className="cb__banner__counter__title">
+                     ~ <span><CountUp start={0} end={22} /> K</span>
+  
+                    </h4>
                   <p className="cb__banner__counter__des">Daily Daily Users</p>
                 </div>
 
@@ -82,11 +89,11 @@ export default function Banner() {
 
         {/* banner chart use from recharts */}
         <div className="flex justify-center xl:block hidden">
-          <motion.div 
-          variants={fadIn("up", 0)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+          <motion.div
+            variants={fadIn("up", 0)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
           >
             <Chart />
           </motion.div>

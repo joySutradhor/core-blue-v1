@@ -65,7 +65,7 @@ export default function Footer() {
                   <strong className="cb__footer__info">Website :</strong> <span className="cb__info__span">resolveidea.com</span>
                 </h2>
                 <h2>
-                  <strong className="cb__footer__info">Phone :</strong> <span className="cb__info__span">+8801627-505755</span>
+                  <strong className="cb__footer__info">Phone :</strong> <span className="cb__info__span">+01771569731</span>
                 </h2>
 
 
@@ -104,12 +104,10 @@ export default function Footer() {
               viewport={{ once: false, amount: 0.7 }}
             >
               <div className="cb__service__category">
-                <p>Web Application Development</p>
-                <p>App Application Development</p>
-                <p>SaaS Development</p>
                 <p>UI/UX Design</p>
+                <p>App Application Development</p>
+                <p>Search Engine Optimization</p>
                 <p>Digital Maketing</p>
-                <p>Serch Engine Optimization</p>
               </div>
             </motion.div>
           </div>

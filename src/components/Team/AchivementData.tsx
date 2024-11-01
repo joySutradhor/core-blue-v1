@@ -6,25 +6,25 @@ import { FaHandshake } from "react-icons/fa";
 
 export const AchivementData =[
     {
-        number : "250" ,
+        number : 250 ,
         name:"Projects",
         icon :<GoFileDirectoryFill/>
 
     },
     {
-        number : "170" ,
+        number : 170 ,
         name:"Happy Client",
         icon :<FaPersonCircleCheck/>
 
     },
     {
-        number : "210" ,
+        number : 210 ,
         name:"Wining Award",
         icon :<FaAward/>
 
     },
     {
-        number : "20" ,
+        number : 20 ,
         name:"Collaboration",
         icon :<FaHandshake/>
 

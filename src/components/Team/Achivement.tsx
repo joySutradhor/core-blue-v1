@@ -1,6 +1,7 @@
 import React from 'react'
 import { AchivementData } from './AchivementData'
 import "./AchivementHelper.css"
+import CountUp from 'react-countup'
 
 export default function Achivement() {
     return (
@@ -11,7 +12,9 @@ export default function Achivement() {
                         <div key={index} className='cb__achivement__inner'>
                             <div className='flex justify-between'>
                                 <div>
-                                    <h3 className='cb__achivement__number'>{data.number} +</h3>
+                                    <h3 className='cb__achivement__number'>
+                                        <CountUp delay={10} start={0} end={data.number} /> +
+                                    </h3>
                                     <p>{data.name}</p>
                                 </div>
                                 <div>
